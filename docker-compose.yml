@@ -1,0 +1,30 @@
+version: '3'
+services:
+  master:
+    build: ./master
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+  slave1:
+    build: ./slave
+    command: ["./slave", "letras"]
+    networks:
+      - app-network
+
+  slave2:
+    build: ./slave
+    command: ["./slave", "numeros"]
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.20.0.0/16
+      config:
+        - subnet: 172.20.0.0/16

@@ -1,0 +1,3 @@
+/home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente/build/CMakeFiles/cliente.dir
+/home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente/build/CMakeFiles/edit_cache.dir
+/home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente/build/CMakeFiles/rebuild_cache.dir
