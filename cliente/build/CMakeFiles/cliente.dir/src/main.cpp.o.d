@@ -1,7 +1,7 @@
 CMakeFiles/cliente.dir/src/main.cpp.o: \
- /home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente/src/main.cpp \
+ /home/daniel/Documentos/UFPI-2025.2/SD/Projeto4/Trabalho-SDII/cliente/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente/include/httplib.h \
+ /home/daniel/Documentos/UFPI-2025.2/SD/Projeto4/Trabalho-SDII/cliente/include/httplib.h \
  /usr/include/arpa/inet.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

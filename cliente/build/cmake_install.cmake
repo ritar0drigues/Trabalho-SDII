@@ -1,4 +1,4 @@
-# Install script for directory: /home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente
+# Install script for directory: /home/daniel/Documentos/UFPI-2025.2/SD/Projeto4/Trabalho-SDII/cliente
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/daniel/Documentos/UFPI-2025.2/SD/Projeto4/Trabalho-SDII/cliente/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

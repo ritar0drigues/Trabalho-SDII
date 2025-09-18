@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente
+CMAKE_SOURCE_DIR = /home/daniel/Documentos/UFPI-2025.2/SD/Projeto4/Trabalho-SDII/cliente
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente/build
+CMAKE_BINARY_DIR = /home/daniel/Documentos/UFPI-2025.2/SD/Projeto4/Trabalho-SDII/cliente/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente/build/CMakeFiles /home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documentos/UFPI-2025.2/SD/Projeto4/Trabalho-SDII/cliente/build/CMakeFiles /home/daniel/Documentos/UFPI-2025.2/SD/Projeto4/Trabalho-SDII/cliente/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ritar0drigues/Documentos/Trabalho4SD/trabalho/cliente/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/Documentos/UFPI-2025.2/SD/Projeto4/Trabalho-SDII/cliente/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

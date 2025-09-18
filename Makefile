@@ -23,20 +23,20 @@ setup-slave:
 # Gerenciar rede
 clean-network:
 	docker network prune -f
-	docker-compose down --remove-orphans
+	docker compose down --remove-orphans
 	docker network rm trabalho_app-network 2>/dev/null || true
 
 # Construir containers
 build: clean-network
-	docker-compose build
+	docker compose build
 
 # Iniciar sistema
 run: clean-network
-	docker-compose up
+	docker compose up
 
 # Parar sistema
 stop:
-	docker-compose down
+	docker compose down
 
 # Limpar tudo
 clean: clean-network
@@ -44,4 +44,4 @@ clean: clean-network
 	rm -rf cliente/include
 	rm -rf master/include
 	rm -rf slave/include
-	docker-compose down --rmi all
+	docker compose down --rmi all
