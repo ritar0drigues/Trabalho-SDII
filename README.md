@@ -201,11 +201,38 @@ make setup-client setup-master setup-slave
 
 Este projeto foi desenvolvido para fins educacionais demonstrando arquitetura distribuída com C++, Docker e GTK.
 
-## 🤝 Contribuições
+## 👥 Autores
 
-Para contribuir:
-1. Faça fork do projeto
-2. Crie uma branch para sua feature
-3. Commit suas mudanças
-4. Faça push para a branch
-5. Abra um Pull Request
+<div align="center">
+
+### 🚀 **Equipe de Desenvolvimento**
+
+<table>
+<tr>
+<td align="center">
+<a href="https://github.com/DanielRodri87">
+<img src="https://github.com/DanielRodri87.png" width="100px;" alt="Daniel Rodrigues"/><br />
+<sub><b>🎯 Daniel Rodrigues</b></sub><br />
+<sub>Backend & Arquitetura</sub>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/ritar0drigues">
+<img src="https://github.com/ritar0drigues.png" width="100px;" alt="Rita de Cássia"/><br />
+<sub><b>✨ Rita de Cássia</b></sub><br />
+<sub>Frontend & Interface</sub>
+</a>
+</td>
+<td align="center">
+<a href="https://github.com/WalisonWeudes">
+<img src="https://github.com/WalisonWeudes.png" width="100px;" alt="Walison Weudes"/><br />
+<sub><b>⚡ Walison Weudes</b></sub><br />
+<sub>Frontend & Interface</sub>
+</a>
+</td>
+</tr>
+</table>
+
+---
+
+</div>
