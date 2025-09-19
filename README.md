@@ -105,9 +105,9 @@ docker-compose logs -f
 
 ```
 Cliente GTK  →  Master (8080)  →  Slave1 (8081) [letras]
-                    ↓         →  Slave2 (8082) [números]
+                    ↓          →  Slave2 (8082) [números]
                     ↓
-                 Resultado JSON  →  Cliente GTK
+                Resultado JSON →  Cliente GTK
 ```
 
 ### Exemplo de Resposta JSON
